@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+}
+
+a{
+    color: white
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.inf{
+    position: absolute;
+    bottom: 0;
+}
+
+.may{
+    position: absolute;
+    font-size: 2vw;
+    bottom: 0;
+    right: 25px;
+}
+
+
+
+#mapid { 
+    height: 620px;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.src{
+    color: aliceblue;
+}
+
+.input{
+    display: inline;
+    width: 300px;
+    margin: auto;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.main{
+    padding: 50px;
+}
