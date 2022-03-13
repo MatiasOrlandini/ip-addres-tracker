@@ -31,7 +31,7 @@ function printMap(data){
 }
 
 function getCords(ip){
-    fetch('http://localhost:5001/cords',{
+    fetch('/cords',{
         method:'POST',
         body: JSON.stringify({ip : ip}),
         headers: {

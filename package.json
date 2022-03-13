@@ -11,22 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "axios": "^0.21.1",
     "express": "^4.17.1",
-    "pug": "^3.0.0",
-    "dotenv": "^10.0.0"
+    "pug": "^3.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MatiasOrlandini/ip-addres-tracker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/MatiasOrlandini/ip-addres-tracker/issues"
-  },
-  "homepage": "https://github.com/MatiasOrlandini/ip-addres-tracker#readme",
-  "description": "",
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "nodemon": "^2.0.12"
   }
 }
+

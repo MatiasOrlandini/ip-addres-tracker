@@ -13,4 +13,4 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.json());
 app.use('/', routes());
 
-app.listen(5001);
+app.listen(process.env.PORT);
